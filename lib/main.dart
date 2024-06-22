@@ -1,7 +1,7 @@
 import 'package:crypto_coin/presentation/pages/main_page/main_page.dart';
 import 'package:flutter/material.dart';
 
-void main(){
+Future <void> main() async{
   runApp(const Main());
 }
 class Main extends StatelessWidget {
